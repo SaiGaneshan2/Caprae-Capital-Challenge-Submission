@@ -65,8 +65,7 @@ This is an enhanced lead generation tool built for Caprae Capital's AI-Readiness
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
-cd enhanced-lead-generation-tool
+git clone https://github.com/SaiGaneshan2/Caprae-Capital-Challenge-Submission
 ```
 
 2. **Install dependencies**
@@ -89,7 +88,7 @@ pip install -r requirements.txt
 
 ### Running the Streamlit App
 ```bash
-streamlit run app.py
+streamlit run frontend.py
 ```
 
 ### Using the Backend Directly
