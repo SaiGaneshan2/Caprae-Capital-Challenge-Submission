@@ -29,8 +29,8 @@ logger = logging.getLogger(__name__)
 class EnhancedLeadGenerationTool:
     def __init__(self):
         # API Keys
-        self.GROQ_API_KEY = "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"
-        self.SERPER_API_KEY = "8c24dc9b2f96710ca884f804f84a6183e459a452"
+        self.GROQ_API_KEY = "put your api here"
+        self.SERPER_API_KEY = "put your api here"
         
         # Initialize Groq client
         self.groq_client = Groq(api_key=self.GROQ_API_KEY)
